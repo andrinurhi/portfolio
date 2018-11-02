@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @send_email.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @send_email.email %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @send_email.phone %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @send_email.address %>
+</p>
+
+<%= link_to 'Edit', edit_send_email_path(@send_email) %> |
+<%= link_to 'Back', send_emails_path %>

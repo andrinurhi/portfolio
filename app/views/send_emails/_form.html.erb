@@ -1,0 +1,37 @@
+<%= form_with(model: send_email, local: true) do |form| %>
+  <% if send_email.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(send_email.errors.count, "error") %> prohibited this send_email from being saved:</h2>
+
+      <ul>
+      <% send_email.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :email %>
+    <%= form.text_field :email %>
+  </div>
+
+  <div class="field">
+    <%= form.label :phone %>
+    <%= form.text_field :phone %>
+  </div>
+
+  <div class="field">
+    <%= form.label :address %>
+    <%= form.text_field :address %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
