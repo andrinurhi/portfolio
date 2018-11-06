@@ -13,5 +13,17 @@
  *= require vendor/fontawesome-free/css/all.min
  *= require vendor/bootstrap/css/bootstrap.min
  *= require vendor/simple-line-icons/css/simple-line-icons
+ *= require vendor/bootstrap/css/bootstrap.min
+ *= require vendor/animate/animate
+ *= require vendor/css-hamburgers/hamburgers.min
+ *= require vendor/animsition/css/animsition.min
+ *= require vendor/select2/select2.min
+ *= require vendor/daterangepicker/daterangepicker
+ *= require util
+ *= require main
  *= require_self
  */
+
+.wrap-login100.p-t-85.p-b-20 {
+    width: 285px;
+}
