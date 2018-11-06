@@ -17,3 +17,12 @@
 //= require vendor/bootstrap/js/bootstrap.bundle.min
 //= require vendor/jquery-easing/jquery.easing.min
 //= require stylish-portfolio.min
+//= require vendor/jquery/jquery-3.2.1.min
+//= require vendor/animsition/js/animsition.min
+//= require vendor/bootstrap/js/popper
+//= require vendor/bootstrap/js/bootstrap.min
+//= require vendor/select2/select2.min
+//= require vendor/daterangepicker/moment.min
+//= require vendor/daterangepicker/daterangepicker
+//= require vendor/countdowntime/countdowntime
+//= require main
